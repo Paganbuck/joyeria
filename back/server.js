@@ -4,6 +4,7 @@ const app=require("./app")
 const dotenv=require("dotenv");
 dotenv.config({path: 'back/config/config.env'})
 
+//Llamemos el servidor
 const server=app.listen(process.env.PORT, () => {
     console.log(`Servidor inicializado en el puerto: ${process.env.PORT} en modo: ${process.env.NODE_ENV}`);
 })
