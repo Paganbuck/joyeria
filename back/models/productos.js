@@ -42,7 +42,9 @@ const productosSchema=mongoose.Schema({
                 "Argollas",
                 "Collares",
                 "Aretes",
-                "Juegos"
+                "Juegos",
+                "Pulseras",
+                "Accesorios"
             ]
         }
     },
